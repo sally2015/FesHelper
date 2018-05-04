@@ -1,0 +1,27 @@
+{
+  "Row": {
+    "prefix": "WbRow",
+    "body": ["<Row>\n\t$0\n</Row>"],
+    "description": "A string template to be used as the layout for fes"
+  },
+  "Cell": {
+    "prefix": "WbCell",
+    "body": ["<Cell span=\"${n}\">\n\t$0\n</Cell>"],
+    "description": "A string template to be used as the layout for fes"
+  },
+  "woffset": {
+    "prefix": "w-offset",
+    "body": ["offset=\"${n}\""],
+    "description": "Updates the element’s offset"
+  },
+  "wtype": {
+    "prefix": "w-type",
+    "body": ["type=\"${n}\""],
+    "description": "Updates the element’s type"
+  },
+  "WbButton": {
+    "prefix": "WbButton",
+    "body": ["<Wb-button type=\"primary\">${text}</Wb-button>"],
+    "description": "Updates the element’s type"
+  }
+}

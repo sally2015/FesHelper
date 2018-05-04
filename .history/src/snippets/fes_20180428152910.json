@@ -1,0 +1,8 @@
+{"FesApi": {
+        "prefix": "fes$api",
+        "body": [
+            "${this}.FesApi.fetch((${path}, {}, (rsttest) => {\n\t\n\t$0\n})"
+        ],
+        "description": "Fes post Api"
+    }
+}

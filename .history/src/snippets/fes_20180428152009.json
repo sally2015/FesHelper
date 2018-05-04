@@ -1,0 +1,8 @@
+{"FesApi": {
+        "prefix": "fes$api",
+        "body": [
+            "${this}.FesApi.fetch((${path}, {}, (rst) => {\n\t${//to and from are Route Object,next() must be called to resolve the hook}\n\t$0\n})"
+        ],
+        "description": "Fes post Api"
+    }
+}

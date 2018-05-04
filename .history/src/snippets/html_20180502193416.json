@@ -1,0 +1,7 @@
+{
+  "FesData": {
+    "prefix": "FesData",
+    "body": ["FesData: function(){\n\treturn {\n\t$0\n\t}\n}"],
+    "description": "Fes page data"
+  }
+}

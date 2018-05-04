@@ -1,0 +1,12 @@
+{
+  "Row": {
+    "prefix": "Row",
+    "body": ["<Row>\n\t$0\n</Row>"],
+    "description": "A string template to be used as the layout for fes"
+  },
+  "Cell": {
+    "prefix": "Cell",
+    "body": ["<Cell span="${n}">\n\t$0\n</Cell>"],
+    "description": "A string template to be used as the layout for fes"
+  },
+}

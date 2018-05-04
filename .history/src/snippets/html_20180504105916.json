@@ -1,0 +1,242 @@
+{
+    "FesTemplate": {
+    "prefix": "FesTemplate",
+    "body": ["template"],
+    "description": "A string template to be used as the layout for fes"
+  },
+  "Row": {
+    "prefix": "WbRow",
+    "body": ["<Row>\n\t$0\n</Row>"],
+    "description": "A string template to be used as the layout for fes"
+  },
+  "Cell": {
+    "prefix": "WbCell",
+    "body": ["<Cell span=\"${n}\">\n\t$0\n</Cell>"],
+    "description": "A string template to be used as the layout for fes"
+  },
+  "WbIcon": {
+    "prefix": "WbIcon",
+    "body": ["<Icon type=\"${type}\" size=\"${size}\"></Icon>"],
+    "description": "A string template to be used as the WbIcon for fes"
+  },
+  "WbMenu": {
+    "prefix": "WbMenu",
+    "body": ["<Wb-menu active-key=\"1\">\n\t<Wb-menu-item key=\"1\">${context}</Wb-menu-item>\n</Wb-menu>"],
+    "description": "A string template to be used as the menu for fes"
+  },
+  "WbButton": {
+    "prefix": "WbButton",
+    "body": ["<Wb-button type=\"primary\">${text}</Wb-button>"],
+    "description": "A string template to be used as the button for fes"
+  },
+  "WbDropdown": {
+    "prefix": "WbDropdown",
+    "body": ["<Dropdown :data=\"${data}\">\n\t<Wb-button type=\"primary\">${text}</Wb-button>\n</Dropdown>"],
+    "description": "A string template to be used as the dropdown for fes"
+  },
+  "WbTabs": {
+    "prefix": "WbTabs",
+    "body": ["<Tabs v-model=\"value\">\n\t<Tab label=\"${标签一}\">${text}</Tab>\n</Tabs>"],
+    "description": "A string template to be used as the WbTabs for fes"
+  },
+  "WbTab": {
+    "prefix": "WbTab",
+    "body": ["<Tab label=\"${标签一}\">${text}</Tab>"],
+    "description": "A string template to be used as the WbTab for fes"
+  },
+  "WbTable": {
+    "prefix": "WbTable",
+    "body": ["<Wb-table :data=\"${data}\">\n\t<Column prop=\"${prop}\" name=\"${name}\"></Column>\n</Wb-table>"],
+    "description": "A string template to be used as the WbTable for fes"
+  },
+  "WbColumn": {
+    "prefix": "WbColumn",
+    "body": ["<Column prop=\"${prop}\" name=\"${name}\"></Column>"],
+    "description": "A string template to be used as the Column for fes"
+  },
+  "WbPagination": {
+    "prefix": "WbPagination",
+    "body": ["<Pagination @on-change=\"changePage\" :locking=\"pagination.locking\"\n\t :current=\"pagination.current\" :size=\"pagination.size\" :total=\"pagination.total\"></Pagination>"],
+    "description": "A string template to be used as the WbPagination for fes"
+  },
+  "WbPanel": {
+    "prefix": "WbPanel",
+    "body": ["<Panel title=\"${title}\">\n\t<Icon type=\"rollback\" slot=\"action\"></Icon>\n\t<Wb-form :label-width=\"100\">\n\t\t<Form-item label=\"输入框\">\n\t\t\t<wb-input placeholder=\"请输入\"></wb-input>\n\t\t</Form-item>\n\t</Wb-form>\n</Panel>"],
+    "description": "A string template to be used as the WbPanel for fes"
+  },
+  "WbTree": {
+    "prefix": "WbTree",
+    "body": ["<Tree :data=\"data\"></Tree>"],
+    "description": "A string template to be used as the Tree for fes"
+  },
+  "WbSteps": {
+    "prefix": "WbSteps",
+    "body": ["<Steps :current=\"2\">\n\t<Step title=\"${title}\"></Step>\n</Steps>"],
+    "description": "A string template to be used as the WbSteps for fes"
+  },
+  "WbStep": {
+    "prefix": "WbStep",
+    "body": ["<Step title=\"${title}\"></Step>"],
+    "description": "A string template to be used as the WbStep for fes"
+  },
+  "WbProcess": {
+    "prefix": "WbProcess",
+    "body": ["<Process-circle :percent=\"${percent}\" stroke-color=\"${color}\">\n\t<Icon type=\"check\" color=\"${color}\"></Icon>\n</Process-circle>"],
+    "description": "A string template to be used as the WbProcess for fes"
+  },
+  "WbCarousel": {
+    "prefix": "WbCarousel",
+    "body": ["<Carousel :data=\"${list}\" :interval=\"${interval}\"></Carousel>"],
+    "description": "A string template to be used as the WbCarousel for fes"
+  },
+  "WbModal": {
+    "prefix": "WbModal",
+    "body": ["<modal ref=\"${modal1}\" title=\"{title}\"></modal>"],
+    "description": "A string template to be used as the modal for fes"
+  },
+  "WbLoading": {
+    "prefix": "WbLoading",
+    "body": ["<Loading v-show=\"${show}\" size=\"${20}\"></Loading>"],
+    "description": "A string template to be used as the Loading for fes"
+  },
+  "WbInput": {
+    "prefix": "WbInput",
+    "body": ["<Wb-input v-model=\"${text}\" placeholder=\"${placeholder}\"></Wb-input>"],
+    "description": "A string template to be used as the WbInput for fes"
+  },
+  "WbInputPassword": {
+    "prefix": "WbInput.password",
+    "body": ["<Wb-input v-model=\"${text}\" placeholder=\"请输入密码\" type=\"password\"></Wb-input>"],
+    "description": "A string template to be used as the WbInput password type for fes"
+  },
+  "WbInputNumber": {
+    "prefix": "WbInput.number",
+    "body": ["<Wb-input v-model=\"${text}\" placeholder=\"${placeholder}\" type=\"number\"></Wb-input>"],
+    "description": "A string template to be used as the WbInput number type for fes"
+  },
+  "WbInputFile": {
+    "prefix": "WbInput.file",
+    "body": ["<Wb-input v-model=\"${text}\" type=\"file\"></Wb-input>"],
+    "description": "A string template to be used as the WbInput file for fes"
+  },
+  "WbInputIcon": {
+    "prefix": "WbInput.icon",
+    "body": ["<Wb-input v-model=\"${text}\" placeholder=\"${placeholder}\" icon=\"${type}\"></Wb-input>"],
+    "description": "A string template to be used as the WbInput with icon for fes"
+  },
+  "WbInputSlot": {
+    "prefix": "WbInput.slot",
+    "body": ["<Wb-input v-model=\"${text}\" placeholder=\"${placeholder}\">\n\t<span slot=\"prepend\">${prepend}</span>\n\t<span slot=\"append\">${append}</span>\n</Wb-input>"],
+    "description": "A string template to be used as the WbInput for fes"
+  },
+  "WbInputTextarea": {
+    "prefix": "WbInput.textarea",
+    "body": ["<Wb-input v-model=\"${text}\" :row=\"${4}\" placeholder=\"${placeholder}\" type=\"textarea\"></Wb-input>"],
+    "description": "A string template to be used as the WbInputTextarea for fes"
+  },
+  "WbSelect": {
+    "prefix": "WbSelect",
+    "body": ["<Wb-select v-model=\"${value}\" @on-change=\"change\">\n\t<wb-option :value=\"${value}\">${option}</wb-option>\n</Wb-select>"],
+    "description": "A string template to be used as the WbSelect for fes"
+  },
+  "WbOption": {
+    "prefix": "WbOption",
+    "body": ["<wb-option :value=\"${value}\">${option}</wb-option>"],
+    "description": "A string template to be used as the WbOption for fes"
+  },
+  "WbRadioGroup": {
+    "prefix": "WbRadioGroup",
+    "body": ["<Radio-group v-model=\"${value}\" @on-change=\"change\">\n\t<Radio :value=\"${value}\">${option}</Radio>\n</Radio-group>"],
+    "description": "A string template to be used as the WbRadioGroup for fes"
+  },
+  "WbRadio": {
+    "prefix": "WbRadio",
+    "body": ["<Radio :value=\"${value}\">${option}</Radio>"],
+    "description": "A string template to be used as the WbRadio for fes"
+  },
+  "WbCheckboxGroup": {
+    "prefix": "WbCheckboxGroup",
+    "body": ["<Checkbox-group v-model=\"${value}\" @on-change=\"change\">\n\t<Checkbox :value=\"${value}\">${option}</Checkbox>\n</Checkbox-group>"],
+    "description": "A string template to be used as the WbRadioGroup for fes"
+  },
+  "WbCheckbox": {
+    "prefix": "WbCheckbox",
+    "body": ["<Checkbox :value=\"${value}\">${option}</Checkbox>"],
+    "description": "A string template to be used as the WbCheckbox for fes"
+  },
+  "WbDatePicker": {
+    "prefix": "WbDatePicker",
+    "body": ["<Date-picker :value=\"${value}\"></Date-picker>"],
+    "description": "A string template to be used as the WbDatePicker for fes"
+  },
+  "WbDatePickerMultiple": {
+    "prefix": "WbDatePicker.multiple",
+    "body": ["<Date-picker :value=\"${value}\" model=\"multiple\"></Date-picker>"],
+    "description": "A string template to be used as the WbDatePicker for fes"
+  },
+  "WbDatePickerRange": {
+    "prefix": "WbDatePicker.range",
+    "body": ["<Date-picker :value=\"${value}\" model=\"range\"></Date-picker>"],
+    "description": "A string template to be used as the WbDatePicker for fes"
+  },
+  "WbDatePickerSeconds": {
+    "prefix": "WbDatePicker.seconds",
+    "body": ["<Date-picker :value=\"${value}\" enable-time  enable-seconds></Date-picker>"],
+    "description": "A string template to be used as the WbDatePicker for fes"
+  },
+  "WbSwitch": {
+    "prefix": "WbSwitch",
+    "body": ["<Wb-switch :value=\"${value}\"></Wb-switch>"],
+    "description": "A string template to be used as the WbSwitch for fes"
+  },
+  "WbForm": {
+    "prefix": "WbForm",
+    "body": ["<Wb-form>\n\t$0\n</Wb-form>"],
+    "description": "A string template to be used as the WbSwitch for fes"
+  },
+  "WbFormValid": {
+    "prefix": "WbForm.valid",
+    "body": ["<Wb-form :rule=\"${ruleValidate}\" ref=\"${formValidate}\">\n\t$0\n</Wb-form>"],
+    "description": "A string template to be used as the WbSwitch for fes"
+  },
+  "WbFormItem": {
+    "prefix": "WbFormItem",
+    "body": ["<Form-item label=\"${label}\">\n\t$0\n</Form-item>"],
+    "description": "A string template to be used as the WbSwitch for fes"
+  },
+  "WbUpload": {
+    "prefix": "WbUpload",
+    "body": ["<Upload :url=\"${options.ur}\" :url=\"${options.ur}\" :maxSize="">\n\t$0\n</Upload>"],
+    "description": "A string template to be used as the WbSwitch for fes"
+  },
+  "wOffset": {
+    "prefix": "w-offset",
+    "body": ["offset=\"${n}\""],
+    "description": "Updates the element’s offset"
+  },
+  "wType": {
+    "prefix": "w-type",
+    "body": ["type=\"${n}\""],
+    "description": "Updates the element’s type"
+  },
+  "wZoom": {
+    "prefix": "w-zoom",
+    "body": ["v-zoom=\"${zoomOption}\""],
+    "description": "zoom directive"
+  },
+  "wToolTip": {
+    "prefix": "w-tooltip",
+    "body": ["v-tooltip=\"${text}\""],
+    "description": "tooltip directive"
+  },
+  "wMaxDate": {
+    "prefix": "w-maxDate",
+    "body": [":max-date=\"${maxDate}\""],
+    "description": "Updates the element’s maxDate"
+  },
+  "wMinDate": {
+    "prefix": "w-minDate",
+    "body": [":min-date=\"${minDate}\""],
+    "description": "Updates the element’s minDate"
+  }
+}

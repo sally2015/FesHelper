@@ -1,0 +1,133 @@
+{
+  "FesData": {
+    "prefix": "FesData",
+    "body": ["FesData: function(){\n\treturn {\n\t$0\n\t}\n}"],
+    "description": "Fes page data"
+  },
+  "FesCreated": {
+    "prefix": "FesCreated",
+    "body": ["FesCreated: function(){\n\t$0\n}"],
+    "description": "Fes page created"
+  },
+  "FesReady": {
+    "prefix": "FesReady",
+    "body": ["FesReady: function(){\n\t$0\n}"],
+    "description": "Fes page ready"
+  },
+  "FesBeforeDestroy": {
+    "prefix": "FesBeforeDestroy",
+    "body": ["FesBeforeDestroy: function(){\n\t$0\n}"],
+    "description": "Fes page BeforeDestroy"
+  },
+  "FesDestroy": {
+    "prefix": "FesDestroy",
+    "body": ["FesDestroy: function(){\n\t$0\n}"],
+    "description": "Fes page Destroy"
+  },
+  "FesApi": {
+    "prefix": "fes$api",
+    "body": ["${this}.FesApi.fetch((${path}, {}, (rst) => {\n\t$0\n})"],
+    "description": "Fes post Api"
+  },
+  "FesToast": {
+    "prefix": "fes$Toast",
+    "body": ["this.\\$Toast.success(${msg}, 2000, callback?)"],
+    "description": "Fes Toast success method"
+  },
+  "FesToastError": {
+    "prefix": "fes$Toast.error",
+    "body": ["this.\\$Toast.error(${msg})"],
+    "description": "Fes Toast error method"
+  },
+  "FesUtilGetClass": {
+    "prefix": "fes$Util.getClass",
+    "body": ["this.FesUtil.getClass(${el})"],
+    "description": "FesUtil getClass method"
+  },
+  "FesUtilHasClass": {
+    "prefix": "fes$Util.hasClass",
+    "body": ["this.FesUtil.hasClass(${el}, ${name})"],
+    "description": "FesUtil hasClass method"
+  },
+  "FesUtilAddClass": {
+    "prefix": "fes$Util.addClass",
+    "body": ["this.FesUtil.addClass(${el}, ${name})"],
+    "description": "FesUtil addClass method"
+  },
+  "FesUtilSetClass": {
+    "prefix": "fes$Util.setClass",
+    "body": ["this.FesUtil.setClass(${el}, ${name})"],
+    "description": "FesUtil hasClass method"
+  },
+  "FesUtilContains": {
+    "prefix": "fes$Util.contains",
+    "body": ["this.FesUtil.contains(${a}, ${b})"],
+    "description": "FesUtil: is a element contains b element"
+  },
+  "FesUtilDeepCopy": {
+    "prefix": "fes$Util.deepCopy",
+    "body": ["this.FesUtil.deepCopy(${data})"],
+    "description": "FesUtil: return a deep copy data"
+  },
+  "FesUtilIsPlainObject": {
+    "prefix": "fes$Util.isPlainObject",
+    "body": ["this.FesUtil.isPlainObject(${value})"],
+    "description": "FesUtil isPlainObject method"
+  },
+  "FesUtilIsNumber": {
+    "prefix": "fes$Util.isNumber",
+    "body": ["this.FesUtil.isNumber(${value})"],
+    "description": "FesUtil isNumber method"
+  },
+  "FesUtilIsDate": {
+    "prefix": "fes$Util.isDate",
+    "body": ["this.FesUtil.isDate(${value})"],
+    "description": "FesUtil isDate method"
+  },
+  "FesUtilIsFunction": {
+    "prefix": "fes$Util.isFunction",
+    "body": ["this.FesUtil.isFunction(${value})"],
+    "description": "FesUtil isFunction method"
+  }, 
+    isFunction
+    isObject
+    isArray
+    isObjectLike
+    isString
+    isNull
+  "FesRouterPush": {
+    "prefix": "fes$router.push",
+    "body": ["this.FesApp.router.push(${location})"],
+    "description": "Fes Router push method"
+  },
+  "FesRouterReplace": {
+    "prefix": "fes$router.replace",
+    "body": ["this.FesApp.router.replace(${location})"],
+    "description": "Fes Toast replace method"
+  },
+  "FesRouterGo": {
+    "prefix": "fes$router.go",
+    "body": ["this.FesApp.router.go(n)"],
+    "description": "Fes Toast go method"
+  },
+  "FesRouterBack": {
+    "prefix": "fes$router.back",
+    "body": ["this.FesApp.router.back()"],
+    "description": "Fes Toast back method"
+  },
+  "FesSetRole": {
+    "prefix": "fes$setRole",
+    "body": ["this.FesApp.setRole(roleName)"],
+    "description": "Fes setRole method"
+  },
+  "FesSetAllowPage": {
+    "prefix": "fes$setAllowPage",
+    "body": ["this.FesApp.setAllowPage(urls)"],
+    "description": "Fes setAllowPage method"
+  },
+  "FesGetAllowPage": {
+    "prefix": "fes$setRole",
+    "body": ["this.FesApp.getAllowPage()"],
+    "description": "Fes getAllowPage method"
+  }
+}

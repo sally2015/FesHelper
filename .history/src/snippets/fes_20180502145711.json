@@ -1,0 +1,32 @@
+{
+  "FesApi": {
+    "prefix": "fes$api",
+    "body": ["${this}.FesApi.fetch((${path}, {}, (rst) => {\n\t\n\t$0\n})"],
+    "description": "Fes post Api"
+  },
+  "FesToast": {
+    "prefix": "fes$Toast",
+    "body": ["this.\\$Toast.success(${msg}, 2000, callback?)"],
+    "description": "Fes Toast success method"
+  },
+  "FesToastError": {
+    "prefix": "fes$Toast.error",
+    "body": ["this.\\$Toast.error(${msg})"],
+    "description": "Fes Toast error method"
+  },
+  "FesRouterPush": {
+    "prefix": "fes$router.push",
+    "body": ["this.FesApp.router.push(${location})"],
+    "description": "Fes Router push method"
+  },
+  "FesRouterReplace": {
+    "prefix": "fes$router.replace",
+    "body": ["this.FesApp.replace(${location})"],
+    "description": "Fes Toast replace method"
+  },
+  "FesRouterGo": {
+    "prefix": "fes$router.go",
+    "body": ["this.FesApp.go(n)"],
+    "description": "Fes Toast go method"
+  },
+}

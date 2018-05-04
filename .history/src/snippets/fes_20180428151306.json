@@ -1,0 +1,8 @@
+{"vue": {
+        "prefix": "Vue",
+        "body": [
+            "new Vue({\n\t$1\n})"
+        ],
+        "description": "Create a vue instance"
+    }
+}
