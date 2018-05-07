@@ -8,8 +8,8 @@
 - click the extensions button (lowest square icon in the editor), and type in FesHelper, select the one by sdras
 
 ## Snippets
-- Temlate: Components start with wb, you can try yourself by typing wb
-- Script: Fes instance api start with fes$, you can try yourself by typing fes$
+- Temlate: Components start with `wb`, you can try yourself by typing wb
+- Script: Fes instance api start with `fes$`, you can try yourself by typing fes$
 - ![logo](./src/images/demo.gif)
 
 ## Contributing
