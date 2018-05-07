@@ -13,4 +13,4 @@
 - ![logo](./src/images/demo.gif)
 
 ## Contributing
-This is an open source project open to anyone. Contributions are extremely welcome :[github](https://github.com/sally2015/FesHelper.git)
+This is an open source project open to anyone. Contributions are extremely welcome :[github](https://github.com/sally2015/FesHelper)
