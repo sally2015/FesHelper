@@ -2,7 +2,7 @@
     "name": "FesHelper",
     "displayName": "FesHelper",
     "description": "Fes code tips",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "icon": "src/images/logo.jpg",
     "publisher": "bingou-ms",
     "engines": {
