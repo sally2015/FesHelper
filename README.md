@@ -1,5 +1,6 @@
-# FesHelper
-
+# FesHelper 
+[![GitHub issues](https://img.shields.io/github/issues/sally2015/FesHelper.svg)](https://github.com/sally2015/FesHelper/issues)
+  
 ![logo](./src/images/logo.jpg)
 - These snippets were built to supercharge my workflow in the most seamless manner possible.
 
