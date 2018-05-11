@@ -36,7 +36,7 @@
     },
     "FesToast": {
         "prefix": "fes$Toast",
-        "body": ["this.\\$Toast.success(${msg}, 2000, callback?)"],
+        "body": ["this.\\$Toast.success(${msg})"],
         "description": "Fes Toast success method"
     },
     "FesToastError": {
