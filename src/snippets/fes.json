@@ -31,7 +31,7 @@
     },
     "FesApi": {
         "prefix": "fes$api",
-        "body": ["${this}.FesApi.fetch(\"${path}\", {}, (rst) => {\n\t$0\n})"],
+        "body": ["${this}.FesApi.fetch(\"${path}\", {}).then(rst => {\n\t$0\n})"],
         "description": "Fes post Api"
     },
     "FesToast": {
