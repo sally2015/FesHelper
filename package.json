@@ -2,7 +2,7 @@
     "name": "FesHelper",
     "displayName": "FesHelper",
     "description": "Fes code tips",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "icon": "src/images/logo.jpg",
     "publisher": "bingou-ms",
     "engines": {
@@ -20,13 +20,20 @@
     ],
     "main": "./extension",
     "contributes": {
-        "snippets": [
-            {
+        "snippets": [{
                 "language": "html",
                 "path": "./src/snippets/html.json"
             },
             {
                 "language": "vue",
+                "path": "./src/snippets/fes.json"
+            },
+            {
+                "language": "fes",
+                "path": "./src/snippets/html.json"
+            },
+            {
+                "language": "fes",
                 "path": "./src/snippets/fes.json"
             },
             {
