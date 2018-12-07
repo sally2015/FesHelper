@@ -9,16 +9,12 @@
         "vscode": "^1.20.0"
     },
     "categories": [
-        "Other"
+        "Snippets"
     ],
     "repository": {
         "type": "git",
         "url": "https://github.com/sally2015/FesHelper.git"
     },
-    "activationEvents": [
-        "onCommand:extension.sayHello"
-    ],
-    "main": "./extension",
     "contributes": {
         "snippets": [{
                 "language": "html",
