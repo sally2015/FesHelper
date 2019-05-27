@@ -5,7 +5,6 @@
 - These snippets were built to supercharge my workflow in the most seamless manner possible.
 
 ## Installation
-
 - click the extensions button (lowest square icon in the editor), and type in FesHelper, select the one by sdras
 
 ## Snippets
